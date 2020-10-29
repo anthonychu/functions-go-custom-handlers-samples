@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "customHandler": {
+    "description": {
+      "defaultExecutablePath": "server"
+    },
+    "enableForwardingHttpRequest": true
+  },
+  "logging": {
+    "logLevel": {
+      "default": "Trace"
+    }
+  }
+}
