@@ -5,7 +5,13 @@
 			"type": "func",
 			"command": "host start",
 			"problemMatcher": "$func-watch",
+			//"dependsOn": "go build",
 			"isBackground": true
-		}
+		},
+		// {
+		// 	"type": "shell",
+		// 	"label": "go build",
+		// 	"command": "go build handler.go"
+		// }
 	]
 }
